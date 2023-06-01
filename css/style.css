@@ -292,6 +292,51 @@ margin-left: 40px;
   text-align: center;
 }
 
+.main_slide3 .fav-food {
+  margin: 30px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 90%;
+}
+
+.main_slide3 .fav-food .item {
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 10px rgb(119, 119, 119, 0.438);
+}
+
+.main_slide3 .fav-food .item div {
+  height: 160px;
+  margin-bottom: 15px;
+}
+
+.main_slide3 .fav-food .item img {
+  width: 160px;
+  margin-bottom: 15px;
+}
+
+.main_slide3 .fav-price {
+
+  color: red;
+  font-weight: bold;
+  font-size: 15px;
+
+}
+
+
+.main_slide3 .dsgn{
+  background-color: rgb(255, 214, 176);
+  height: 50%;
+  width: 100%;
+  position:absolute;
+  z-index: -1;
+  bottom: 0;
+  border-radius: 10px;
+}
+
+
 
 @media only screen and (max-width: 768px){
   header .nav, header .account {
@@ -380,6 +425,13 @@ margin-left: 40px;
     font-size: 11px;
   }
 
+  .main_slide3 .dsgn {
+    height: 60%;
+  }
+  .main_slide3 .fav-food{
+    width: 85%;
+    margin-bottom: 20px;
+  }
 
 
 }
@@ -414,6 +466,35 @@ margin-left: 40px;
   .main_slide div:nth-child(2) img {
     width:70vw;
   }
+
+  .food-items {
+    padding: 10px 0;
+
+  }
+
+  .item {
+    width: 80%;
+  }
+  .item h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+
+  .main_slide3 .fav-head {
+    width: 100%;
+
+  }
+   .main_slide3 .fav-head h3 {
+    font-size: 25px;
+   }
+
+   .main_slide3 .fav-head p {
+    font-size: 11px;
+   }
+   .main_slide3 .dsgn {
+    display: none;
+   }
+   
 
 }
 
